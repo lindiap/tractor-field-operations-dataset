@@ -26,10 +26,10 @@ This repository contains a multivariate time series dataset collected from a New
 
 The dataset consists of two separate work sessions, split for training and testing:
 
-| Split       | Observations | Description                            |
-|-------------|--------------|----------------------------------------|
-| Training    | 17,447       | Used to train terrain- and activity-specific models |
-| Testing     | 11,795       | Used for anomaly injection and model evaluation     |
+| Split             | Observations | Description                                         |
+|-------------------|--------------|-----------------------------------------------------|
+| Work-session 1    | 17,447       | Used to train terrain- and activity-specific models |
+| Work-session 2    | 11,795       | Used for anomaly injection and model evaluation     |
 
 Each row in the dataset represents a timestamped reading with synchronized GNSS and CAN-Bus sensor values, along with an associated operational label.
 
