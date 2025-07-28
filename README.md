@@ -66,7 +66,7 @@ If you use this dataset in your research, please cite:
 
 > _"Lindia, P., et al. (2025). Predictive Maintenance in Agricultural Machinery: Spatiotemporal Anomaly Detection with LLM-Generated Test Faults. Under Review."_
 
-> _"Lindia, P., et al. (2025). Enhancing the Evaluation of Fault Detection Models in Smart Agriculture Using LLM Agents for Rule-Based Anomaly Generation. Under Review."_
+> _"Lindia, P., et al. (2024). Enhancing the Evaluation of Fault Detection Models in Smart Agriculture Using LLM Agents for Rule-Based Anomaly Generation. Under Review."_
 
 ---
 
