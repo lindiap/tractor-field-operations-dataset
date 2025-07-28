@@ -64,9 +64,7 @@ The dataset is provided in CSV format and includes the following columns (indica
 
 If you use this dataset in your research, please cite:
 
-> _"Lindia, P., et al. (2025). Predictive Maintenance in Agricultural Machinery: Spatiotemporal Anomaly Detection with LLM-Generated Test Faults. Under Review."_
-
-> _"Lindia, P., et al. (2024). Enhancing the Evaluation of Fault Detection Models in Smart Agriculture Using LLM Agents for Rule-Based Anomaly Generation. Under Review."_
+> Lindia, L., Cantini, R., Bettucci, F., Sartori, L., & Trunfio, P. (2025). _"Predictive maintenance in agricultural machinery: Spatiotemporal anomaly detection with LLM-generated test faults"_ [Manuscript submitted for publication]. _Engineering Applications of Artificial Intelligence._
 
 ---
 
@@ -75,6 +73,7 @@ If you use this dataset in your research, please cite:
 For questions or collaborations, please contact:  
 **Paolo Lindia** – [paolo.lindia@dimes.unical.it](mailto:paolo.lindia@dimes.unical.it)
 **Francesco Bettucci** – [francesco.bettucci@phd.unipd.it](mailto:francesco.bettucci@phd.unipd.it)
+
 ---
 
 ## 📝 License
