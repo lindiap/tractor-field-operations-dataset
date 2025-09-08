@@ -35,9 +35,34 @@ Each row in the dataset represents a timestamped reading with synchronized GNSS 
 
 ---
 
+## ☢️ Anomaly Generation
+
+The anomaly generation process is based on a multi-agent workflow that leverages different Large Language Models (LLMs). All **prompts used** are available in the `prompts` folder of this repository.  
+
+The workflow is structured as follows:  
+
+1. **LLM Selection**  
+   - Several models (GPT-4o, Llama 3.1 70B, Gemini 2.0, and Mistral Large 2) are asked to generate operational ranges for selected variables extracted from the tractor’s **CAN-Bus**.  
+   - The generated ranges are compared with the real operational ranges, and the LLM that produces the most similar values is selected.  
+
+2. **Anomaly Scenario Generation**  
+   - Once the best-performing model is chosen, it is prompted to propose **anomaly cases or scenarios**.  
+   - These scenarios are then passed to another prompt that asks the LLM to translate them into **formal anomaly rules**.  
+
+3. **Anomaly Validation**  
+   - Another LLM agent evaluates whether the generated anomaly rules are realistic and valid.  
+
+4. **Python Code Generation**  
+   - If an anomaly is validated, an LLM generates the corresponding **Python code** to apply the rules to the dataset.  
+
+5. **Anomalous Dataset Creation**  
+   - The validated anomalies are applied to the original dataset, producing an **anomalous dataset** for each generat
+
+---
+
 ## 🧪 Applications
 
-This dataset can be used for:
+This dataset can be used also for:
 - Operational state classification and clustering
 - Time series anomaly detection
 - Predictive maintenance research 
