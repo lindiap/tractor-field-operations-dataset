@@ -1,0 +1,12 @@
+As an experienced specialist in {{agricultural_machinery_type}}, we request
+your support in analyzing several operational parameters collected from the machinery’s CAN bus. You are given a list of variables, each described with its name,
+unit of measurement, and explanation. The variables are presented in the following
+format:
+	- <var_name> (<operational_range> <unit>): <var_description>
+	- . . .
+Your objective is to determine the operational limits of each variable, considering
+the various tasks performed by the machinery, i.e. {{list_of_activities}}.
+Please provide your output in the following structure:
+	- <var_name>: <operational_range> (<unit>)
+	- . . .
+Input variables: {{input}}
