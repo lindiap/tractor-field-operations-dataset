@@ -38,10 +38,9 @@ Each row in the dataset represents a timestamped reading with synchronized GNSS 
 ## 🧪 Applications
 
 This dataset can be used for:
-- Operational state classification
-- Anomaly generation and detection
-- Predictive maintenance research
-- LSTM/Autoencoder modeling for time series
+- Operational state classification and clustering
+- Time series anomaly detection
+- Predictive maintenance research 
 
 ---
 
