@@ -11,9 +11,9 @@ It also includes **synthetic anomalies** generated through a multi-agent workflo
 
 ---
 
-## 📍 Dataset Overview
+## 🗺️ Dataset Overview
 
-- **Collection site**: Lucio Toniolo experimental farm, University of Padova (`45°20'42.5"N, 11°57'15.1"E`)
+- **Collection site**: Lucio Toniolo experimental farm, University of Padova (📍`45°20'42.5"N, 11°57'15.1"E`)
 - **Tractor model**: New Holland T7.165 S  
 - **Sensors**:  
   - **GNSS** (u-blox NEO-M8U): 2.5 m CEP  
