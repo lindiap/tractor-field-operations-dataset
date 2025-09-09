@@ -53,7 +53,7 @@ The workflow proceeds as follows:
 - **Anomaly Case Generation**: The selected LLM proposes anomaly scenarios, which are then formalized into explicit anomaly rules.  
 - **Validation**: Another LLM verifies that the anomaly rules are realistic and consistent.  
 - **Python Code Generation**: Validated rules are translated into Python code.  
-- **Anomalous Dataset Creation**: The generated rules are applied to produce augmented datasets with injected anomalies.  
+- **Anomaly Injection**: The generated rules are applied to produce augmented datasets with injected anomalies.  
 
 All **prompts used in this workflow** are available in the [`prompts`](./prompts) folder.  
 
