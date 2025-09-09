@@ -1,0 +1,14 @@
+Using: (i) the generated anomaly cases, (ii) the descriptions of each case, (iii)
+the activities performed, and (iv) the operational ranges of the relevant variables,
+create a set of rules for each anomaly case that defines how each involved variable
+changes numerically. Additionally, indicate the total duration of the anomaly for
+each case. Note that the session during which anomalies are applied lasts approx-
+imately {{session_duration}}, with measurements recorded at a frequency of
+{{observations_frequency}}.
+Please format your output as follows:
+	- <case_name> (<activity_performed>):
+		- <duration>
+		- rules:
+			- <var_name>: <rule_description>
+			- . . .
+	- . . .
