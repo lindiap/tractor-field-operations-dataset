@@ -1,4 +1,4 @@
-As an experienced specialist in {{agricultural_machinery_type}}, we request your expertise in analyzing various operational parameters collected from the machinery’s CAN bus. 
+As an experienced technician, specialized in {{agricultural_machinery_type}}, we request your expertise in analyzing various operational parameters collected from the machinery’s CAN bus. 
 You are provided with a list of variables, each including its name, operational bounds, unit of measurement, and description. 
 The variables are formatted as follows:
 	- <var_name> (<operational_range> <unit>): <var_description>
@@ -15,4 +15,5 @@ Please format your output as follows:
 			- . . .
 		- <activity_performed>
 	- . . .
+
 Input variables: {{input}}
