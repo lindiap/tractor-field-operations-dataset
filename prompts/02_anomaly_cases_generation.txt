@@ -1,0 +1,18 @@
+As an experienced specialist in {{agricultural_machinery_type}}, we request your expertise in analyzing various operational parameters collected from the machinery’s CAN bus. 
+You are provided with a list of variables, each including its name, operational bounds, unit of measurement, and description. 
+The variables are formatted as follows:
+	- <var_name> (<operational_range> <unit>): <var_description>
+	- . . .
+Your task is to generate significant anomaly cases based on the activities performed by the machinery, i.e., {{list_of_activities}}. 
+Each anomaly case should include:
+	- a description of the anomaly
+	- the list of variables involved
+	- the activity being performed when the anomaly occurs
+Please format your output as follows:
+	- <case_name>: <case_description>
+		- variables involved:
+			- <var_name>
+			- . . .
+		- <activity_performed>
+	- . . .
+Input variables: {{input}}
