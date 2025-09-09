@@ -41,22 +41,22 @@ The anomaly generation process is based on a multi-agent workflow that leverages
 
 The workflow is structured as follows:  
 
-1. **LLM Selection**  
+1. LLM Selection  
    - Several models (GPT-4o, Llama 3.1 70B, Gemini 2.0, and Mistral Large 2) are asked to generate operational ranges for selected variables extracted from the tractor’s **CAN-Bus**.  
    - The generated ranges are compared with the real operational ranges, and the LLM that produces the most similar values is selected.  
 
-2. **Anomaly Scenario Generation**  
+2. Anomaly Cases Generation  
    - Once the best-performing model is chosen, it is prompted to propose **anomaly cases or scenarios**.  
    - These scenarios are then passed to another prompt that asks the LLM to translate them into **formal anomaly rules**.  
 
-3. **Anomaly Validation**  
+3. Anomaly Validation 
    - Another LLM agent evaluates whether the generated anomaly rules are realistic and valid.  
 
-4. **Python Code Generation**  
+4. Python Code Generation  
    - If an anomaly is validated, an LLM generates the corresponding **Python code** to apply the rules to the dataset.  
 
-5. **Anomalous Dataset Creation**  
-   - The validated anomalies are applied to the original dataset, producing an **anomalous dataset** for each generat
+5. Anomalous Dataset Creation  
+   - The validated anomalies are applied to the original dataset, producing an **anomalous dataset** for each generated case.
 
 ---
 
@@ -88,7 +88,7 @@ The dataset is provided in CSV format and includes the following columns (indica
 
 If you use this dataset in your research, please cite:
 
-> Lindia, L., Cantini, R., Bettucci, F., Sartori, L., & Trunfio, P. (2025). _"Predictive maintenance in agricultural machinery: Spatiotemporal anomaly detection with LLM-generated test faults"_ [Manuscript submitted for publication]. _Engineering Applications of Artificial Intelligence._
+> Lindia, L., Cantini, R., Bettucci, F., Sartori, L., & Trunfio, P. (2025). _"Predictive maintenance in agricultural machinery: Spatiotemporal anomaly detection with LLM-generated test faults"_ [Manuscript submitted for publication]. _Computers in Industry._
 
 ---
 
