@@ -31,7 +31,7 @@ The dataset consists of **two work sessions** (train/test split). Each row corre
 | Split           | Observations | Purpose                                               |
 |-----------------|--------------|-------------------------------------------------------|
 | Work-session 1  | 17,447       | Training of terrain- and activity-specific models      |
-| Work-session 2  | 11,795       | Anomaly injection and evaluation                      |
+| Work-session 2  | 11,795       | Anomaly injection and model evaluation                 |
 
 **CSV columns include:**  
 - `timestamp`  
