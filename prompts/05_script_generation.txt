@@ -1,4 +1,4 @@
-As an experienced Python developer, we request your support in scripting code.
+As an experienced Python programmer, we request your support in code scripting.
 You are provided with a set of rules for various anomaly cases that describe how each involved variable changes numerically, along with the total duration of the anomaly. 
 The anomaly cases are formatted as follows:
 	- <case_name> (<activity_performed>):
@@ -13,4 +13,5 @@ The code should meet the following requirements:
 	- read the input dataframe from a provided CSV;
 	- accept the start time and the anomaly to apply as inputs;
 	- provide only the function without any example usage.
+
 Input anomaly cases: {{input}}
