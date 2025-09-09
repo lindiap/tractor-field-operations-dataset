@@ -44,7 +44,8 @@ The dataset consists of **two work sessions** (train/test split). Each row corre
 
 ## 🧪 Anomaly Injection Workflow
 
-Synthetic anomalies were generated through a **multi-agent pipeline of LLMs**. Each agent contributes to designing, validating, and applying anomalies to the dataset, resulting in realistic augmented data for benchmarking.  
+Synthetic anomalies were generated through an **LLM-driven agentic workflow**. Multiple agents—a tractor technician, an anomaly validator, and a Python programmer—collaborate in this process, each responsible for designing, validating, and applying anomalies to the dataset. The result is a set of benchmarking datasets augmented with realistic anomalies.  
+
 
 The workflow proceeds as follows:  
 
