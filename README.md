@@ -37,7 +37,7 @@ Each row in the dataset represents a timestamped reading with synchronized GNSS 
 
 ## ☢️ Anomaly Generation
 
-The anomaly generation process is based on a multi-agent workflow that leverages different Large Language Models (LLMs). All **prompts used** are available in the `prompts` folder of this repository.  
+The anomaly generation process is based on a multi-agent workflow that leverages different Large Language Models (LLMs). All **prompts used** are available in the [`prompts`](./prompts) folder of this repository.  
 
 The workflow is structured as follows:  
 
