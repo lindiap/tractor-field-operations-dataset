@@ -1,13 +1,12 @@
 # 🚜 GNSS-CAN Farm Tractor Operations Dataset
 
-A multivariate time series dataset collected from a **New Holland T7.165 S** farm tractor equipped with **GNSS** and **CAN-Bus** sensors.  
+This repo provides a ral-world multivariate time series dataset collected from a **New Holland T7.165 S** farm tractor equipped with **GNSS** and **CAN-Bus** sensors.
+It also features several **anomaly-injected** variants, generated via a multi-agent workflow powered by **Large Language Models** (LLMs) to simulate realistic fault conditions.
 
 The dataset supports research in **precision agriculture** by enabling:  
 - **Operational state classification & clustering**  
 - **Time-series anomaly detection**  
-- **Predictive maintenance research**  
-
-It also includes **synthetic anomalies** generated through a multi-agent workflow powered by **Large Language Models (LLMs)**, designed to simulate realistic fault conditions.  
+- **Predictive maintenance research**
 
 ---
 
