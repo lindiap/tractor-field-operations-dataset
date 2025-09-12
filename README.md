@@ -55,7 +55,7 @@ The workflow proceeds as follows:
 - **Python Code Generation**: Validated rules are translated into Python code.  
 - **Anomaly Injection**: The generated rules are applied to produce augmented datasets with injected anomalies.  
 
-All **prompts used in this workflow** are provided in the [`prompts`](./prompts) folder, while anomaly-injected dataset are available in the [`anomalous_datasets`](./anomalous_datasets) folder.  
+All **prompts used in this workflow** are provided in the [`prompts`](./prompts) folder, while anomaly-injected variants of *Work-session 2* are available in the [`anomalous_datasets`](./anomalous_datasets) folder.  
 
 ---
 
