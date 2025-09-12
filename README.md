@@ -4,9 +4,9 @@ This repository provides a ral-world multivariate time series dataset collected 
 It also features several **anomaly-injected** variants, generated via a multi-agent workflow powered by **Large Language Models** (LLMs) to simulate realistic fault conditions.
 
 It aims to support research in **precision agriculture** by enabling:  
-- **Operational state classification & clustering**  
-- **Time-series anomaly detection**  
-- **Predictive maintenance research**
+- *Operational state classification & clustering* 
+- *Time-series anomaly detection*
+- *Predictive maintenance research*
 
 ---
 
